@@ -1,0 +1,45 @@
+.distill-site-nav {
+  color: rgba(255, 255, 255, 1.0);              /* text: white */
+  background-color: rgba(168, 159, 135, 1.0);   /* background: egg */
+}
+
+.nav-dropdown .nav-dropbtn {
+  color: rgba(255, 255, 255, 1.0);  /* text: white */
+}
+
+/* reduces spacing on lists from 1em to 0em */
+d-article li {
+  margin-bottom: 0;
+}
+
+/* tweaks margins */
+.html-widget {
+  margin-bottom: 0;
+}
+
+.nav-dropdown-content a:not([href]) {
+  font-weight: 600;
+  font-size: smaller;
+  background-color: white;
+}
+
+/* vega-embed */
+
+/* protects tooltip spacing */
+#vg-tooltip-element {
+  line-height: 1.0;
+}
+
+/* protects action links */
+.vega-embed .vega-actions a {
+  font-weight: 400;
+  line-height: 1.0;
+  border-bottom: 0;
+}
+
+/* tweaks gallerywidget */
+
+.gallerywidget-subtitle {
+  color: #333;
+  font-weight: 300;
+}

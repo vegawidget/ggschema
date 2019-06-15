@@ -1,0 +1,31 @@
+---
+title: "ggschema"
+description: |
+  The design philosophy of ggspec
+author:
+  - name: "Ian Lyttle"
+    url: https://github.com/ijlyttle
+    affiliation: Schneider Electric
+    affiliation_url: https://www.se.com
+  - name: "Haley Jeppson"
+    url: https://github.com/haleyjeppson
+    affiliation: Schneider Electric, Iowa State University
+    affiliation_url: https://www.se.com
+  - name: "Wenyu Yang"
+    url: https://github.com/wenyuyangpku 
+    affiliation: George Washington University
+    affiliation_url: https://www.gwu.edu  
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
